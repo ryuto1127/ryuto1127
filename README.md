@@ -6,13 +6,15 @@
 
 ### Hi, I'm Ryuto 👋
 
-I build the products I believe in, through dialogue with AI coding agents (Claude Code). I can't write code on my own, and I don't read programming languages either. Instead, the AI translates between code and natural language for me; I bring a human's perspective and instincts; I debate design decisions with the AI; and the implementation itself is entirely the AI's work. The result is a quality a solo AI can't reach, at a speed a solo human can't match — both at once.
+I build the products I believe in, through dialogue with AI coding agents (Claude Code). I can't write code on my own, and I don't read programming languages either. Instead, the AI translates between code and natural language for me; I bring a human's perspective and instincts; I debate design decisions with the AI; and I delegate the implementation entirely to the AI. The result is a quality a solo AI can't reach, at a speed a solo human can't match — both at once.
 
 #### What I've built
 
-🗑️ **[wayste](https://github.com/ryuto1127/wayste)** — An AI sorting kiosk that tells you the right bin the moment you walk up to it. **Aiming for a world where everyone disposes of waste correctly with zero extra effort, just by going through their normal routine.** 2 weeks to build. Currently in pilot discussions with universities and companies in Japan. [Homepage →](https://wayste.vercel.app/)
+🗑️ **[wayste](https://github.com/ryuto1127/wayste)** — An AI sorting kiosk that tells you the right bin the moment you walk up to it. **Aiming for a world where everyone disposes of waste correctly with zero extra effort, just by going through their normal routine.** 2 weeks to build. Currently in pilot discussions with universities and companies in Japan. [Homepage](https://wayste.vercel.app/)
 
-📚 **[steadii](https://github.com/ryuto1127/steadii)** — Academic support app for university students, powered by an autonomous, proactive AI agent. **Connects to the external services students rely on; each student gets a personalized "AI secretary" that supports them deep into academic life — from email to class notes.** 1 week to build. Currently running in auth-gated alpha. [Try it →](https://mysteadii.xyz/)
+📚 **[steadii](https://github.com/ryuto1127/steadii)** — Academic support app for university students, powered by an autonomous, proactive AI agent. **Connects to the external services students rely on; each student gets a personalized "AI secretary" that supports them deep into academic life — from email to class notes.** 1 week to build. Currently running in auth-gated alpha. [Homepage](https://mysteadii.xyz/)
+
+📖 **[smart-vocab-reader](https://github.com/ryuto1127/smart-vocab-reader)** — A Chrome extension that, while you read English on the web, surfaces only the words above your CEFR level near the text you've selected. **Aiming for a reading experience where you learn just the words you actually need — no more switching tabs to look things up, no more being slowed down by translations of words you already know.** Currently live on the Chrome Web Store (v4.0.1). [Install →](https://chromewebstore.google.com/detail/cefr-reading-assistant-%E2%80%93/eplnkcihpoimjahabgdikemnfknlpcof)
 
 #### How I work
 
