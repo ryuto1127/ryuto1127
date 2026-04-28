@@ -14,7 +14,7 @@ I build the products I believe in, through dialogue with AI coding agents (Claud
 
 📚 **[steadii](https://github.com/ryuto1127/steadii)** — Academic support app for university students, powered by an autonomous, proactive AI agent. **Connects to the external services students rely on; each student gets a personalized "AI secretary" that supports them deep into academic life — from email to class notes.** 1 week to build. Currently running in auth-gated alpha. [Homepage](https://mysteadii.xyz/)
 
-📖 **[smart-vocab-reader](https://github.com/ryuto1127/smart-vocab-reader)** — A Chrome extension that, while you read English on the web, surfaces only the words above your CEFR level near the text you've selected. **Aiming for a reading experience where you learn just the words you actually need — no more switching tabs to look things up, no more being slowed down by translations of words you already know.** Currently live on the Chrome Web Store (v4.0.1). [Install](https://chromewebstore.google.com/detail/cefr-reading-assistant-%E2%80%93/eplnkcihpoimjahabgdikemnfknlpcof)
+📖 **[CEFR Reading Assistant](https://github.com/ryuto1127/smart-vocab-reader)** — A Chrome extension that, while you read English on the web, surfaces only the words above your CEFR level near the text you've selected. **Aiming for a reading experience where you learn just the words you actually need — no more switching tabs to look things up, no more being slowed down by translations of words you already know.** Currently live on the Chrome Web Store (v4.0.1). [Install](https://chromewebstore.google.com/detail/cefr-reading-assistant-%E2%80%93/eplnkcihpoimjahabgdikemnfknlpcof)
 
 #### How I work
 
