@@ -12,7 +12,7 @@ I build production software by directing AI coding agents — mainly Claude Code
 
 🗑️ **[wayste](https://github.com/ryuto1127/wayste)** — Real-time AI waste-sorting kiosk. Browser-side YOLO inference (custom 15-class model via ONNX Runtime Web), with a GPT-5.4 mini fallback for the rare items the local model hasn't seen. **Shipped in 2 weeks. Currently in pilot discussions with offices and one airport partner in Japan.** [Live demo →](https://wayste.vercel.app/)
 
-📚 **[steadii](https://github.com/ryuto1127/steadii)** — AI-powered academic assistant for university students. Connects to Gmail / Google Classroom / Google Calendar, extracts assignments and deadlines from academic emails, and drafts contextual replies behind a confirmation UI. **Shipped in 1 week. Public alpha live.** [Try it →](https://mysteadii.xyz/)
+📚 **[steadii](https://github.com/ryuto1127/steadii)** — Calm, proactive AI agent for university students. Reads Gmail, Google Calendar, syllabi, and the user's past mistakes across one unified context. Drafts replies, surfaces conflicts (exam-during-travel, deadline overlap, under-prepared exams) before the student notices, and exposes its full reasoning (glass-box). Layered L1-rules + L2-LLM triage pipeline with a 20-second undo on every send. **Shipped in 1 week. α invite-only with a first cohort of 10 Japanese university students; North American public launch Aug–Sept 2026.** [Try it →](https://mysteadii.xyz/)
 
 #### How I work
 
