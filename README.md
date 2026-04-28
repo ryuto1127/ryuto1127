@@ -6,25 +6,25 @@
 
 ### Hi, I'm Ryuto 👋
 
-I build production software by directing AI coding agents — mainly Claude Code. I don't write code line-by-line; I understand projects in natural language, debate design decisions with the AI through iterative dialogue, and arrive at something neither side could produce alone — quality a solo AI can't reach, at a speed a solo human can't match.
+I build the products I believe in, through dialogue with AI coding agents (Claude Code). I can't write code on my own, and I don't read programming languages either. Instead, the AI translates between code and natural language for me; I bring a human's perspective and instincts; I debate design decisions with the AI; and the implementation itself is entirely the AI's work. The result is a quality a solo AI can't reach, at a speed a solo human can't match — both at once.
 
 #### What I've built
 
-🗑️ **[wayste](https://github.com/ryuto1127/wayste)** — Real-time AI waste-sorting kiosk. Browser-side YOLO inference (custom 15-class model via ONNX Runtime Web), with a GPT-5.4 mini fallback for the rare items the local model hasn't seen. **Shipped in 2 weeks. Currently in pilot discussions with universities and corporate offices in Japan.** [Live demo →](https://wayste.vercel.app/)
+🗑️ **[wayste](https://github.com/ryuto1127/wayste)** — An AI sorting kiosk that tells you the right bin the moment you walk up to it. **Aiming for a world where everyone disposes of waste correctly with zero extra effort, just by going through their normal routine.** 2 weeks to build. Currently in pilot discussions with universities and companies in Japan. [Homepage →](https://wayste.vercel.app/)
 
-📚 **[steadii](https://github.com/ryuto1127/steadii)** — Calm, proactive AI agent for university students. Reads Gmail, Google Calendar, syllabi, and the user's past mistakes across one unified context. Drafts replies, surfaces conflicts (exam-during-travel, deadline overlap, under-prepared exams) before the student notices, and exposes its full reasoning (glass-box). Layered L1-rules + L2-LLM triage pipeline with a 20-second undo on every send. **Shipped in 1 week. α invite-only with a first cohort of 10 Japanese university students; North American public launch Aug–Sept 2026.** [Try it →](https://mysteadii.xyz/)
+📚 **[steadii](https://github.com/ryuto1127/steadii)** — Academic support app for university students, powered by an autonomous, proactive AI agent. **Connects to the external services students rely on; each student gets a personalized "AI secretary" that supports them deep into academic life — from email to class notes.** 1 week to build. Currently running in auth-gated alpha. [Try it →](https://mysteadii.xyz/)
 
 #### How I work
 
-The work is always *with* the AI, not *by* it:
+I don't "use" AI. I treat the AI as an engineer — one who's slightly less clever than a person, but exceptionally good at writing code:
 
-- **Push past the AI's ceiling through dialogue.** Single-shot generation tops out at "demoable but shallow." I get to "production-grade" by asking *why this design?* until the answer is principled.
-- **Move at speeds neither side could alone.** wayste in 2 weeks, steadii in 1 week — both built to real production standards (proper authentication, payment-safe billing, comprehensive tests), not duct-taped MVPs.
-- **Validate, don't just claim.** Both projects pass automated security audits — AI-assisted doesn't have to mean insecure.
+- **Push past the AI's ceiling through dialogue.** Single-shot generation tops out at "demoable but shallow." I get to "principled architecture" by asking *why this design?* until the answer holds up.
+- **Delegate the coding entirely.** I haven't touched a single line of code in either project. When a better-than-human engineer is available, there's no reason to write code myself.
+- **A speed neither side could reach alone.** wayste in 2 weeks, steadii in 1 week — both built to production quality (privacy guarantees, secure payment processing, passing comprehensive third-party automated security audits). Not MVP-level.
 
 #### Background
 
-Japanese student. Spent the first year of high school at **Chiba Prefectural Chiba High School** (a top public high school in Japan), currently on exchange at a high school in Vancouver, joining the **University of Toronto** in September 2026 to study **Computer Science**.
+Japanese. Spent the first year of high school at **Chiba Prefectural Chiba High School** (a top public high school in Japan), now on exchange at a high school in Vancouver, Canada. Joining the **University of Toronto** in September 2026 to study **Computer Science**.
 
 #### Reach me
 
