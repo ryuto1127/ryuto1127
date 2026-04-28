@@ -14,7 +14,7 @@ AIコーディングエージェント（Claude Code）との対話を通して�
 
 📚 **[steadii](https://github.com/ryuto1127/steadii)** — 大学生向けの「自立的・能動的」AIエージェント搭載の学業サポートアプリ。**学生が使うであろう様々な外部サービスと連携し、それぞれにパーソナライズされた「AI秘書」がメールからクラスノートまで、学業の深いところまでサポートします。** かかった期間は1週間。現在、認証制α版で運用中。 [ホームページ](https://mysteadii.xyz/)
 
-📖 **[smart-vocab-reader](https://github.com/ryuto1127/smart-vocab-reader)** — 英文を読んでいるときに、自分のCEFRレベルで「難しい単語だけ」を選択範囲のそばに浮かび上がらせるChrome拡張。**辞書のために別タブを開いたり、すでに知っている単語まで翻訳されてしまう煩わしさを取り除き、本当に必要な単語だけを学べる読書体験を目指しています。** 現在、Chrome ウェブストアで公開中（v4.0.1）。 [Chrome ウェブストアへ →](https://chromewebstore.google.com/detail/cefr-reading-assistant-%E2%80%93/eplnkcihpoimjahabgdikemnfknlpcof)
+📖 **[smart-vocab-reader](https://github.com/ryuto1127/smart-vocab-reader)** — 英文を読んでいるときに出くわす難しい単語だけを「選択」するだけで、その文脈での意味と使い方をページ上に表示させるChrome拡張。**辞書のために別タブを開いて集中が途切れるのを防ぎ、流れるような快適な読書体験を提供する。** 現在、Chrome ウェブストアで公開中（v4.0.1）。 [Chrome ウェブストアへ](https://chromewebstore.google.com/detail/cefr-reading-assistant-%E2%80%93/eplnkcihpoimjahabgdikemnfknlpcof)
 
 #### 仕事の進め方
 
