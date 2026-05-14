@@ -14,6 +14,8 @@ AIコーディングエージェント（Claude Code）との対話を通して�
 
 📚 **[steadii](https://github.com/ryuto1127/steadii)** — 大学生向けの「自立的・能動的」AIエージェント搭載の学業サポートアプリ。**学生が使うであろう様々な外部サービスと連携し、それぞれにパーソナライズされた「AI秘書」がメールからクラスノートまで、学業の深いところまでサポートします。** かかった期間は1週間。現在、認証制α版で運用中。 [ホームページ](https://mysteadii.com/)
 
+🚨 **[Sonae](https://github.com/WhiteStoneTak/Sonae)** — 市民一人ひとりに専用の災害対応AIエージェント。AMD MI300X GPU 1枚の上で 8,000 体が並列に推論し、それぞれの現在地・体・家族構成に合わせた行動計画を返す。**「同じ警報を10万人に」ではなく「一人ひとりに合わせた行動計画」を、あらゆる災害とその先の連鎖まで届ける世界を目指して。** 開発期間 1 週間。AMD Hackathon 2026 (Track 3: Vision & Multimodal AI) 提出作品。[ライブデモ](https://sonae-visitor-lp.vercel.app/)
+
 📖 **[CEFR Reading Assistant](https://github.com/ryuto1127/smart-vocab-reader)** — 英文を読んでいるときに出くわす難しい単語だけを「選択」するだけで、その文脈での意味と使い方をページ上に表示させるChrome拡張。**辞書のために別タブを開いて集中が途切れるのを防ぎ、流れるような快適な読書体験を提供する。** 現在、Chrome ウェブストアで公開中（v4.0.1）。 [Chrome ウェブストアへ](https://chromewebstore.google.com/detail/cefr-reading-assistant-%E2%80%93/eplnkcihpoimjahabgdikemnfknlpcof)
 
 #### 仕事の進め方
