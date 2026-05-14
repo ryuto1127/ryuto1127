@@ -23,7 +23,7 @@ I build the products I believe in, through dialogue with AI coding agents (Claud
 I don't "use" AI. I treat the AI as an engineer — one who's slightly less clever than a person, but exceptionally good at writing code:
 
 - **Push past the AI's ceiling through dialogue.** Single-shot generation tops out at "demoable but shallow." I get to "principled architecture" by asking *why this design?* until the answer holds up.
-- **Delegate the coding entirely.** I haven't touched a single line of code in either project. When a better-than-human engineer is available, there's no reason to write code myself.
+- **Delegate the coding entirely.** I haven't touched a single line of code in any of these projects. When a better-than-human engineer is available, there's no reason to write code myself.
 - **A speed neither side could reach alone.** wayste in 2 weeks, steadii in 1 week — both built to production quality (privacy guarantees, secure payment processing, passing comprehensive third-party automated security audits). Not MVP-level.
 
 #### Background
