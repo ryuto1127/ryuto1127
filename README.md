@@ -10,6 +10,8 @@ I build the products I believe in, through dialogue with AI coding agents (Claud
 
 #### What I've built
 
+📝 **[es-canvas](https://github.com/ryuto1127/es-canvas)** — An editor for the ES (Japan's make-or-break job-hunting essay) that strengthens it while keeping every word your own: it researches your target company, asks follow-up questions to draw out strengths you never wrote down, and suggests edits you decide on one by one. **Aiming for a world where AI lifts a student's essay without ever overwriting their voice — the AI offers the options, the human makes the final call.** 1 week to build. Live as a public demo (bring your own OpenAI key). [Homepage](https://es-canvas.vercel.app/)
+
 🗑️ **[wayste](https://github.com/ryuto1127/wayste)** — An AI sorting kiosk that tells you the right bin the moment you walk up to it. **Aiming for a world where everyone disposes of waste correctly with zero extra effort, just by going through their normal routine.** 2 weeks to build. Currently in pilot discussions with universities and companies in Japan. [Homepage](https://wayste.vercel.app/)
 
 📚 **[steadii](https://github.com/ryuto1127/steadii)** — Academic support app for university students, powered by an autonomous, proactive AI agent. **Connects to the external services students rely on; each student gets a personalized "AI secretary" that supports them deep into academic life — from email to class notes.** 1 week to build. Currently running in auth-gated alpha. [Homepage](https://mysteadii.com/)
