@@ -6,7 +6,9 @@
 
 ### Hi, I'm Ryuto 👋
 
-I build the products I believe in, through dialogue with AI coding agents (Claude Code). I can't write code on my own, and I don't read programming languages either. Instead, the AI translates between code and natural language for me; I bring a human's perspective and instincts; I debate design decisions with the AI; and I delegate the implementation entirely to the AI. The result is a quality a solo AI can't reach, at a speed a solo human can't match — both at once.
+I build AI-native products from problems I personally care about. My current focus is the interface between human judgment and AI agents: how to turn ambiguous real-world needs into systems that can reason, act, and improve under clear constraints.
+
+I use AI coding agents such as Claude Code as part of my development process, but I do not treat AI as a black box. My role is to own the problem framing, product direction, architecture discussions, implementation review at the behavior and system level, testing, debugging, deployment, and iteration. AI accelerates implementation; I stay responsible for the decisions that determine whether the product is useful, reliable, and worth building.
 
 #### What I've built
 
@@ -22,11 +24,16 @@ I build the products I believe in, through dialogue with AI coding agents (Claud
 
 #### How I work
 
-I don't "use" AI. I treat the AI as an engineer — one who's slightly less clever than a person, but exceptionally good at writing code:
+- **Start from a real constraint.** I build around concrete frictions I have seen myself, then keep narrowing the problem until the product has a reason to exist.
+- **Translate vague ideas into technical requirements.** Before implementation, I define the user flow, expected system behavior, data boundaries, failure cases, and what the product must prove.
+- **Use AI to move faster, not to avoid understanding.** I use AI agents to accelerate implementation, but I challenge design choices, test behavior, debug failures, and iterate based on how the system actually performs.
+- **Keep the human judgment where it matters.** AI can generate options quickly, but I decide what should be built, what tradeoffs are acceptable, and whether the result actually serves the user.
 
-- **Push past the AI's ceiling through dialogue.** Single-shot generation tops out at "demoable but shallow." I get to "principled architecture" by asking *why this design?* until the answer holds up.
-- **Delegate the coding entirely.** I haven't touched a single line of code in any of these projects. When a better-than-human engineer is available, there's no reason to write code myself.
-- **A speed neither side could reach alone.** wayste in 2 weeks, steadii in 1 week — both built to production quality (privacy guarantees, secure payment processing, passing comprehensive third-party automated security audits). Not MVP-level.
+#### Current technical focus
+
+- AI agents: tool use, context design, autonomy boundaries, memory, and failure recovery
+- Web products: authentication, API design, deployment, data modeling, privacy, and security basics
+- Computer science foundations: data structures, algorithms, systems thinking, and debugging
 
 #### Background
 
