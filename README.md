@@ -16,7 +16,7 @@ I write about *why it's designed this way*, not just what it does.
 
 🗑️ **[wayste](https://github.com/ryuto1127/wayste)** — An AI waste-sorting kiosk that tells you the right bin the moment you walk up with your trash.
 
-Japan has no national waste-sorting standard: rules differ across roughly 1,700 municipalities. Overseas competitors that hard-code sorting rules can't scale against this fragmentation. wayste separates image recognition (a custom 15-class YOLO dataset, mAP50 ≈ 0.92) from the structured representation of local rules, making "deployable in any town" the center of the design — classification runs 100% on-device in the browser, so no frame ever leaves the kiosk. Built in about 2 weeks. Currently seeking pilot sites and partners in Japan. [Homepage](https://wayste.vercel.app/)
+Japan has no national waste-sorting standard: rules differ across roughly 1,700 municipalities. Overseas competitors that hard-code sorting rules can't scale against this fragmentation. wayste separates image recognition (a custom 15-class YOLO dataset, mAP50 ≈ 0.92) from the structured representation of local rules, making "deployable in any town" the center of the design — classification runs 100% on-device in the browser, and no frame is ever sent to a cloud AI. Built in about 2 weeks. Currently seeking pilot sites and partners in Japan. [Homepage](https://wayste.vercel.app/)
 
 📚 **[steadii](https://github.com/ryuto1127/steadii)** — An AI secretary for university students: it connects to Gmail, Calendar, Notion and more, and proactively supports academic life, from email to course information.
 
