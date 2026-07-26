@@ -6,38 +6,43 @@
 
 ### Hi, I'm Ryuto 👋
 
-I build AI-native products from problems I personally care about. My current focus is the interface between human judgment and AI agents: how to turn ambiguous real-world needs into systems that can reason, act, and improve under clear constraints.
+I build AI-native products that start from frictions I've personally run into.
 
-I use AI coding agents such as Claude Code as part of my development process, but I do not treat AI as a black box. My role is to own the problem framing, product direction, architecture discussions, implementation review at the behavior and system level, testing, debugging, deployment, and iteration. AI accelerates implementation; I stay responsible for the decisions that determine whether the product is useful, reliable, and worth building.
+Most of my development happens in conversation with Claude Code — not as delegation, but as a division of labor. Now that implementation speed is no longer the bottleneck, I spend my time on defining the problem correctly, articulating design principles, verifying behavior, and deciding what *not* to build. What ultimately determines a product's quality is not the amount of code written, but the quality of the judgment behind it.
 
 #### What I've built
 
-📝 **[es-canvas](https://github.com/ryuto1127/es-canvas)** — An editor for the ES (Japan's make-or-break job-hunting essay) that strengthens it while keeping every word your own: it researches your target company, asks follow-up questions to draw out strengths you never wrote down, and suggests edits you decide on one by one. **Aiming for a world where AI lifts a student's essay without ever overwriting their voice — the AI offers the options, the human makes the final call.** 1 week to build. Live as a public demo (bring your own OpenAI key). [Homepage](https://es-canvas.vercel.app/)
+I write about *why it's designed this way*, not just what it does.
 
-🗑️ **[wayste](https://github.com/ryuto1127/wayste)** — An AI sorting kiosk that tells you the right bin the moment you walk up to it. **Aiming for a world where everyone disposes of waste correctly with zero extra effort, just by going through their normal routine.** 2 weeks to build. Seeking pilot sites and partners in Japan. [Homepage](https://wayste.vercel.app/)
+🗑️ **[wayste](https://github.com/ryuto1127/wayste)** — An AI waste-sorting kiosk that tells you the right bin the moment you walk up with your trash.
 
-📚 **[steadii](https://github.com/ryuto1127/steadii)** — Academic support app for university students, powered by an autonomous, proactive AI agent. **Connects to the external services students rely on; each student gets a personalized "AI secretary" that supports them deep into academic life — from email to class notes.** 1 week to build. Currently running in auth-gated alpha. [Homepage](https://mysteadii.com/)
+Japan has no national waste-sorting standard: rules differ across roughly 1,700 municipalities. Overseas competitors that hard-code sorting rules can't scale against this fragmentation. wayste separates image recognition (a custom 15-class YOLO dataset, mAP50 ≈ 0.92) from the structured representation of local rules, making "deployable in any town" the center of the design — classification runs 100% on-device in the browser, so no frame ever leaves the kiosk. Built in about 2 weeks. Currently seeking pilot sites and partners in Japan. [Homepage](https://wayste.vercel.app/)
 
-🚨 **[Sonae](https://github.com/WhiteStoneTak/Sonae)** — A personalized disaster-response AI agent for every citizen — 8,000 of them reasoning in parallel on a single AMD MI300X GPU, each adapting to one person's location, body, and family. **Aiming for a world where every emergency alert isn't a generic warning broadcast to thousands, but a personal plan — for every disaster, and the cascade that follows.** 1 week to build. Built for the AMD Hackathon 2026 (Track 3: Vision & Multimodal AI). [Live demo](https://sonae-visitor-lp.vercel.app/)
+📚 **[steadii](https://github.com/ryuto1127/steadii)** — An AI secretary for university students: it connects to Gmail, Calendar, Notion and more, and proactively supports academic life, from email to course information.
 
-📖 **[CEFR Reading Assistant](https://github.com/ryuto1127/smart-vocab-reader)** — A Chrome extension that, while you read English on the web, surfaces only the words above your CEFR level near the text you've selected. **Aiming for a reading experience where you learn just the words you actually need — no more switching tabs to look things up, no more being slowed down by translations of words you already know.** Currently live on the Chrome Web Store (v4.0.1). [Install](https://chromewebstore.google.com/detail/cefr-reading-assistant-%E2%80%93/eplnkcihpoimjahabgdikemnfknlpcof)
+The core design principle is *"a secretary, not a tutor."* Instead of a passive AI that answers when asked, it anticipates and delivers what you need — but never acts without your consent. I keep this boundary between initiative and overreach written down as explicit design rules, and when an exception surfaces I edit the rulebook itself rather than bolting on another exception, because a spec that grows by accretion confuses both the AI and the human. Built in about a week; now running as an auth-gated alpha. [Homepage](https://mysteadii.com/)
 
-#### How I work
+📝 **[es-canvas](https://github.com/ryuto1127/es-canvas)** — An editor that makes a student's ES (Japan's make-or-break job-hunting essay) stronger while keeping it in their own words.
 
-- **Start from a real constraint.** I build around concrete frictions I have seen myself, then keep narrowing the problem until the product has a reason to exist.
-- **Translate vague ideas into technical requirements.** Before implementation, I define the user flow, expected system behavior, data boundaries, failure cases, and what the product must prove.
-- **Use AI to move faster, not to avoid understanding.** I use AI agents to accelerate implementation, but I challenge design choices, test behavior, debug failures, and iterate based on how the system actually performs.
-- **Keep the human judgment where it matters.** AI can generate options quickly, but I decide what should be built, what tradeoffs are acceptable, and whether the result actually serves the user.
+Hand your writing to generative AI and you get prose that is polished but belongs to no one. es-canvas answers this by *drawing out* instead of rewriting: it researches your target company, asks follow-up questions to surface strengths you never wrote down, and proposes edits that you accept or reject one at a time. The AI offers options; the human makes the final call — a principle carried down to the unit of UI interaction. Built in about a week. Public demo available (bring your own OpenAI key). [Homepage](https://es-canvas.vercel.app/)
 
-#### Current technical focus
+🚨 **[Sonae](https://github.com/WhiteStoneTak/Sonae)** — An offline disaster-response platform that assigns every citizen a personal AI agent. Built in about a week for the AMD Hackathon 2026 (Track 3: Vision & Multimodal AI).
 
-- AI agents: tool use, context design, autonomy boundaries, memory, and failure recovery
-- Web products: authentication, API design, deployment, data modeling, privacy, and security basics
-- Computer science foundations: data structures, algorithms, systems thinking, and debugging
+Instead of broadcasting the same warning to 100,000 people, it returns an action plan tailored to each person's location, physical condition, and family — with 8,000 agents reasoning in parallel on a single AMD MI300X, showing that "personal disaster response" is computationally realistic. [Live demo](https://sonae-visitor-lp.vercel.app/)
+
+📖 **[CEFR Reading Assistant](https://github.com/ryuto1127/smart-vocab-reader)** — A Chrome extension: select any English text while reading, and it shows meaning cards right on the page — only for words at or above your CEFR level.
+
+Born from my own frustration of losing reading focus every time I opened another tab for a dictionary. Live on the Chrome Web Store (v4.0.1). [Install](https://chromewebstore.google.com/detail/cefr-reading-assistant-%E2%80%93/eplnkcihpoimjahabgdikemnfknlpcof)
+
+#### What I'm learning from building with AI
+
+- **The faster implementation gets, the more a sloppy problem definition shows.** AI will happily build "something plausible" from a vague instruction, so unless you articulate up front what success looks like and how it could fail, you just move faster in the wrong direction. That is why I spend the most time, before implementation, putting user flows, expected behavior, and failure patterns into words.
+- **Improve instructions to AI by editing, not appending.** Pile on exceptions and your instructions will eventually contradict themselves. Operating steadii taught me that rewriting the rulebook itself when something breaks is what actually works.
+- **Where you draw the autonomy boundary becomes the product's personality.** On the same foundation models, the differentiator is the line between what the AI does on its own and where it hands judgment back to the human. es-canvas's "approve each suggestion one by one" and steadii's "anticipate but never overstep" are both experiments in drawing that line.
 
 #### Background
 
-Japanese. Spent the first year of high school at **Chiba Prefectural Chiba High School** (a top public high school in Japan), then completed high school in Vancouver, Canada. Joining the **University of Toronto** in September 2026 to study **Computer Science**.
+From Chiba, Japan. Spent the first year of high school at **Chiba Prefectural Chiba High School** (a top public high school in Japan), then moved to Vancouver, Canada, and graduated from high school there. Joining the **University of Toronto** in September 2026 to study **Computer Science**. Outside of tech, I'm into vintage clothing and streetwear.
 
 #### Reach me
 
