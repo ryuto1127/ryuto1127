@@ -42,7 +42,7 @@ Born from my own frustration of losing reading focus every time I opened another
 
 #### Background
 
-From Chiba, Japan. Spent the first year of high school at **Chiba Prefectural Chiba High School** (a top public high school in Japan), then moved to Vancouver, Canada, and graduated from high school there. Joining the **University of Toronto** in September 2026 to study **Computer Science**. Outside of tech, I'm into vintage clothing and streetwear.
+From Chiba, Japan. Spent the first year of high school at **Chiba Prefectural Chiba High School** (a top public high school in Japan), then moved to Vancouver, Canada, and graduated from high school there. Joining the **University of Toronto** in September 2026 to study **Computer Science**. Outside of tech, I'm into going around to apparel shops, travelling, and snowboarding.
 
 #### Reach me
 
